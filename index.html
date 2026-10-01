@@ -3,36 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
 </head>
 <body>
-        <p>Redirecting you to the main page in <span id="countdown">3</span> seconds...</p>
-        <p>Target IP : <span id="target-ip"></span></p>
-        <p>If auto redirection failed, <a id="manual-link" href="#">click this link</a> manually</p>
-        <p>If the IP expired, contact <a href="mailto:awaplay@outlook.com">example@test.com</a> for help.</p>
-        <p>IP addressed last updated at : <span id="update-time"></span></p>
-
-    <script>
-        const TARGET_IP = "[2409:8a55:216:c9c1:853a:d18f:ddf5:160d]:80";
-        const LAST_UPDATED = "2025-11-23 06:27:00 UTC";
-
-        
-        document.getElementById("target-ip").textContent = TARGET_IP;
-        document.getElementById("update-time").textContent = LAST_UPDATED;
-        document.getElementById("manual-link").href = `http://[${TARGET_IP}]`;
-
-        
-        let seconds = 3;
-        const countdownElement = document.getElementById("countdown");
-        
-        const countdownInterval = setInterval(() => {
-            seconds--;
-            countdownElement.textContent = seconds;
-            if (seconds <= 0) {
-                clearInterval(countdownInterval);
-                window.location.href = `http://${TARGET_IP}`;
-            }
-        }, 1000);
-    </script>
+    <p>This page will no longer exists as there are no more things will be on the this github.io website.</p>
+    <p>This website was ever used to be a altn site for test purpose.</p>
+    <p>Live of this page : 11 months 9 days</p>
+    <p>2025-11-23  2026-10-1</p>
+    <p>Also , my own website is under construction , it might be closed for a moment. I am making some changes and will publish progress updates asap. </p>
 </body>
 </html>
